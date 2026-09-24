@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(55, 23, 55);
+}
+
+table {
+    border: 1px solid rgb(87, 42, 87);
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(231, 202, 237);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+caption {
+    color:rgb(231, 202, 237);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+th {
+    background-color: rgb(87, 42, 87);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid rgb(87, 42, 87);
+}
+
+td:nth-child(1) {
+    background-color: rgb(129, 62, 192);
+    color: white;
+    font-weight: 600;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
