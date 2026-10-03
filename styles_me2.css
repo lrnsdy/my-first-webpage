@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 172, 206);
+}
+
+table {
+    margin: 0 auto;
+    border-spacing: 0px;
+    border-radius: 20px;
+    background-color: rgb(245, 202, 231);
+    font-family: Geneva, Verdana, sans-serif;
+    color: rgb(72, 18, 53);
+}
+
+caption {
+    color:rgb(100, 23, 73);
+    font-family: Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+div {
+    font-size: small;
+}
+
+.dark {
+    background-color: rgb(139, 16, 82);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    color: rgb(255, 202, 235);
+    padding: 20px;
+    border: 1px solid rgb(139, 16, 82);
+}
+
+tr:first-child th {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+tr:last-child th{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+td {
+    padding: 20px;
+}
+
+.main1 {
+    background-color: rgb(158, 55, 117);
+    border-color: rgb(158, 55, 117);
+    color: white;
+    font-weight: 600;
+}
+
+.main2 {
+    background-color: rgb(139, 16, 82);
+    border-color: rgb(139, 16, 82);
+    color: white;
+    font-weight: 600;
+}
+
+.diffcell {
+    background-color: rgb(247, 177, 214);
+    border-color: rgb(216, 149, 185);
+}
+
+a {
+    color:rgb(255, 202, 235);
+}
+
+a:hover {
+    color: red;
+}
